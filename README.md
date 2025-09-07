@@ -24,12 +24,12 @@ Journal of Chemical Information and Modeling
 
 First, install the required dependencies:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 **Note:** RDKit may require installation via conda:
-```bash
+```
 conda install -c conda-forge rdkit
 ```
 
