@@ -49,7 +49,7 @@ python mgcvae.py --dataset ../data/ZINC_logP_MR_sample.csv --data 10000 --size 1
 ```
 
 **Parameters explanation:**
-- `--dataset`: Path to the dataset file (default: `../data/ZINC_logP_MR.csv`)
+- `--dataset`: Path to the dataset file (default: `../data/ZINC_logP_MR_sample.csv`)
 - `--data`: Number of samples to use for training (default: 80000)
 - `--size`: Maximum molecule size (default: 10)
 - `--epochs`: Number of training epochs (default: 1000)

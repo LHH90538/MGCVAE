@@ -19,7 +19,7 @@ from graph_converter import graph_features, feature_size, graph_adjacency, graph
 parser = argparse.ArgumentParser(description='Small Molecular Graph Conditional Variational Autoencoder for Multi-objective Optimization (logP & Molar Refractivity)')
 parser.add_argument('--data', type=int, default=80000, help='Sampling (default=80000)')
 parser.add_argument('--size', type=int, default=10, help='molecule size (default=10)')
-parser.add_argument('--dataset', type=str, default='../data/ZINC_logP_MR.csv', help="dataset path (default='../data/ZINC_logP_MR.csv')")
+parser.add_argument('--dataset', type=str, default='../data/ZINC_logP_MR_sample.csv', help="dataset path (default='../data/ZINC_logP_MR_sample.csv')")
 parser.add_argument('--conditions', type=str, default='../data/conditions.csv', help="conditions path (default='../data/conditions.csv')")
 parser.add_argument('--batch', type=int, default=100, help='batch size (default=100)')
 parser.add_argument('--epochs', type=int, default=1000, help='epoch (default=1000)')
