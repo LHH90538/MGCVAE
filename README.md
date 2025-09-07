@@ -10,7 +10,7 @@ This is a fork of the original [MGCVAE project](https://github.com/mhlee216/MGCV
 
 ## Original Project
 
-<img src="https://github.com/mhlee216/MGCVAE/blob/main/main.png">
+<img src="https://github.com/LHH90538/MGCVAE/blob/main/main.png">
 
 #### MGCVAE: Multi-Objective Inverse Design via Molecular Graph Conditional Variational Autoencoder
 
