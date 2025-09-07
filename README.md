@@ -36,6 +36,7 @@ conda install -c conda-forge rdkit
 ## Usage
 
 ### Step 1: Navigate to the code directory
+
 ```
 cd ./code/
 ```
