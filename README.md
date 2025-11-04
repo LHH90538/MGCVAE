@@ -28,10 +28,6 @@ First, install the required dependencies:
 pip install -r requirements.txt
 ```
 
-**Note:** RDKit may require installation via conda:
-```
-conda install -c conda-forge rdkit
-```
 
 ## Usage
 
@@ -74,5 +70,20 @@ You can also customize other parameters:
 - `--lr`: Learning rate (default: 0.00005)
 - `--output`: Output path for generated molecules (default: `../results/generated`)
 - `--conditions`: Path to conditions file (default: `../data/conditions.csv`)
+
+## Visualization
+
+After generating molecules, you can visualize the generated molecules and their property statistics by opening and running `Results_Visualization.ipynb`
+
+
+The notebook will generate:
+
+1. **Property Statistics**: Distribution plots comparing generated molecules with the original dataset
+
+![Property Statistics](./gen_fig.png)
+
+2. **Generated Molecules**: Visual grid of generated molecular structures
+
+![Generated Molecules](./gen_mol.png)
 
 
