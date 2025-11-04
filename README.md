@@ -73,17 +73,17 @@ You can also customize other parameters:
 
 ## Visualization
 
-After generating molecules, you can visualize the generated molecules and their property statistics by opening and running `Results_Visualization.ipynb`
+After generating molecules, you can visualize the generated molecules and their property statistics by opening and running: `Results_Visualization.ipynb`
 
 
 The notebook will generate:
 
 1. **Property Statistics**: Distribution plots comparing generated molecules with the original dataset
 
-![Property Statistics](./gen_fig.png)
+![Property Statistics](./generated_fig.png)
 
 2. **Generated Molecules**: Visual grid of generated molecular structures
 
-![Generated Molecules](./gen_mol.png)
+![Generated Molecules](./generated_mol.png)
 
 
